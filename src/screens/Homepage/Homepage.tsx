@@ -27,7 +27,7 @@ export const Homepage = (): JSX.Element => {
         {/* Hero area with intro and testimonials */}
         <section className="w-full">
           <HeroSection />
-          <div className="flex flex-row w-full border-2 border-blue-800">
+          <div className="flex flex-row w-full">
             <div className="flex-1">
               <IntroSection />
             </div>

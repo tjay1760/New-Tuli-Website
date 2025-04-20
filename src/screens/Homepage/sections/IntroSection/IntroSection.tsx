@@ -3,7 +3,7 @@ import { Button } from "../../../../components/ui/button";
 
 export const IntroSection = (): JSX.Element => {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-24 bg-[#f8f4f1]">
       <div className="container">
         <div className="max-w-[531px] flex flex-col items-start gap-6">
           <h1 className="font-['Montserrat',Helvetica] font-bold text-[#071d6e] text-4xl leading-tight tracking-[0.8px]">
