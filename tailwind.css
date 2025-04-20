@@ -1,0 +1,126 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --app-secondary: rgba(243, 205, 3, 1);
+  --h-2-font-family: "Montserrat", Helvetica;
+  --h-2-font-size: 40px;
+  --h-2-font-style: normal;
+  --h-2-font-weight: 700;
+  --h-2-letter-spacing: 0.20000000298023224px;
+  --h-2-line-height: 50px;
+  --h-5-font-family: "Montserrat", Helvetica;
+  --h-5-font-size: 16px;
+  --h-5-font-style: normal;
+  --h-5-font-weight: 700;
+  --h-5-letter-spacing: 0.10000000149011612px;
+  --h-5-line-height: 24px;
+  --h-6-font-family: "Montserrat", Helvetica;
+  --h-6-font-size: 14px;
+  --h-6-font-style: normal;
+  --h-6-font-weight: 700;
+  --h-6-letter-spacing: 0.20000000298023224px;
+  --h-6-line-height: 24px;
+  --light-text-color: rgba(255, 255, 255, 1);
+  --link-font-family: "Montserrat", Helvetica;
+  --link-font-size: 14px;
+  --link-font-style: normal;
+  --link-font-weight: 700;
+  --link-letter-spacing: 0.20000000298023224px;
+  --link-line-height: 24px;
+  --second-text-color: rgba(115, 115, 115, 1);
+  --text-color: rgba(37, 43, 66, 1);
+  --white: rgba(255, 255, 255, 1);
+  --x-252525: rgba(37, 37, 37, 1);
+  --x-505050: rgba(80, 80, 80, 1);
+  --x-767676: rgba(118, 118, 118, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
