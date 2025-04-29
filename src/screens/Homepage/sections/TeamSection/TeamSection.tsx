@@ -5,20 +5,20 @@ import { Card, CardContent } from "../../../../components/ui/card";
 const teamMembers = [
   {
     id: 1,
-    name: "S. Raman",
-    title: "Physics Professor",
-    image: "/testimonial-user-cover-1.png",
+    name: "John Murianki",
+    title: "Freelancer",
+    image: "/johnMurianki.png",
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "Invoicing makes your life a whole lot easier and takes that worry off you. I've tried Quickbooks— a bit more complicated and technical, and takes more time to set up",
     rating: 4,
   },
   {
     id: 2,
-    name: "Chris Fox",
-    title: "Maths Professor",
-    image: "/testimonial-user-cover-2.png",
+    name: "Jenipher Huismanr",
+    title: "Small Business Owner",
+    image: "/jennifer.png",
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "Tuli not just a cool piece of software, it is giving peace of mind to people.” You deserve to know your taxes aren't something you have to sweat over the entire calendar year",
     rating: 4,
   },
 ];
@@ -38,7 +38,7 @@ export const TeamSection = (): JSX.Element => {
             </div>
 
             <h2 className="font-['Montserrat',Helvetica] text-x-505050 font-bold text-[40px] text-center tracking-[0] leading-[48px] whitespace-nowrap mt-2">
-              Our Team
+             Testimonials
             </h2>
           </div>
         </div>

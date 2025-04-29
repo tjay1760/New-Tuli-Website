@@ -18,6 +18,20 @@ export const ServicesWrapperSection = (): JSX.Element => {
       description: "Create and send professional invoices in minutes",
       titleFont: "Montserrat",
     },
+    {
+      id: 3,
+      image: "/rectangle-75-2.png",
+      title: "Consultants",
+      description: "Make informed business decisions to cut down costs ",
+      titleFont: "Montserrat",
+    },
+    {
+      id: 4,
+      image: "/rectangle-75-3.png",
+      title: "Contractors",
+      description: "Stay compliant with local and global regulations ",
+      titleFont: "Montserrat",
+    },
   ];
 
   return (

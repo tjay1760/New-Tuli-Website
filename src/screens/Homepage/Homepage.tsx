@@ -1,15 +1,16 @@
-import React from "react";
+
 import { BlogSection } from "./sections/BlogSection";
-import { FeaturesSection } from "./sections/FeaturesSection/FeaturesSection";
+
 import { FooterSection } from "./sections/FooterSection/FooterSection";
 import { HeroContentSection } from "./sections/HeroContentSection/HeroContentSection";
 import { HeroSection } from "./sections/HeroSection";
 import { IntroSection } from "./sections/IntroSection";
 import { NewsletterSection } from "./sections/NewsletterSection/NewsletterSection";
-import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
 import { ServicesWrapperSection } from "./sections/ServicesWrapperSection";
 import { TeamSection } from "./sections/TeamSection/TeamSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection";
+import OurServicesSection from "./sections/OurServicesSection/OurServicesSection";
+import JourneySection from "./JourneySection/JourneySection";
 
 export const Homepage = (): JSX.Element => {
   // Company logos data for the partners section
@@ -41,28 +42,17 @@ export const Homepage = (): JSX.Element => {
         <section className="w-full">
           <HeroContentSection />
         </section>
-
+        <section className="w-full">
+          <OurServicesSection/>
+        </section>
         {/* Services wrapper section */}
         <section className="w-full">
           <ServicesWrapperSection />
         </section>
 
-        {/* Services section */}
-        <section className="w-full py-12 relative">
-          <div className="w-14 h-[57px] absolute top-[27px] left-[168px] rounded-[28px/28.5px] [background:linear-gradient(308deg,rgba(255,230,7,0.15)_0%,rgba(255,230,7,1)_100%)]" />
-          <div className="max-w-[1280px] mx-auto">
-            <ServicesSection />
-          </div>
-        </section>
-
-        {/* Features section */}
-        <section className="w-full">
-          <FeaturesSection />
-        </section>
-
-        {/* Blog section */}
-        <section className="w-full bg-[#b1e9d32b] py-16">
-          <BlogSection />
+        
+        <section className="w-full py-16">
+          <JourneySection/>
         </section>
 
         {/* Partners section */}
